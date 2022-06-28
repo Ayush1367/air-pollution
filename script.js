@@ -6,7 +6,7 @@ const airQualityStat = document.querySelector(".air-quality-status")
 const srchBtn = document.querySelector(".search-btn")
 const componentsEle = document.querySelectorAll(".component-val")
 
-const appId = "" // Get your own API Key from https://home.openweathermap.org/api_keys
+const appId = "2c4ee74ee041ed145c0a0504b8dc61e8"
 const link = "https://api.openweathermap.org/data/2.5/air_pollution"	// API end point
 
 const getUserLocation = () => {
